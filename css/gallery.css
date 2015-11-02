@@ -1,0 +1,31 @@
+.gallery {
+  overflow: auto;
+}
+
+  .gallery figure{
+     float:         left;
+     margin-right:  10px;
+     border:        1px solid #333;
+     border-radius: 3px;
+     background:    white;
+     padding:       8px;
+  }
+
+  .gallery figure:nth-child(3n+2){
+    clear: both;
+  }
+
+  .gallery figure img{
+     display:       block;
+     width:         250px;
+     border:        1px solid #888;
+     border-radius: 3px;
+  }
+
+  .gallery figure figcaption{
+    text-align:  center;
+    padding:     8px;
+    font-family: cursive;
+    font-weight: bold;
+    color:       black;
+  }

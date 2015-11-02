@@ -1,0 +1,10 @@
+/* Introduction */
+#introduction{
+    position:            relative;
+    background-color:    black;
+    background-image:    url('../img/introduction-bg.jpg');
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-size:     100% auto;
+    height:              500px;
+}
